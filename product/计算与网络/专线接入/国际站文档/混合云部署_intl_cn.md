@@ -1,7 +1,7 @@
 根据连接企业数据中心和私有网络的不同连接需求，腾讯云提供 VPN 连接和专线接入服务，主要区别如下：
-- [VPN 连接](https://cloud.tencent.com/product/vpn.html) 
+- [VPN 连接](https://intl.cloud.tencent.com/product/vpn) 
 利用公网和 IPsec 协议，在您的数据中心和私有网络之间建立加密的网络连接。VPN 网关的购买、生效和配置可以在几分钟内完成。但是 VPN 连接可能会受到 Internet 抖动、阻塞等公网质量问题而中断，当用户业务对网络连接质量要求不高时，VPN 连接是一种快速部署的高性价比选择。
-- [专线接入](https://cloud.tencent.com/product/dc.html) 
+- [专线接入](https://intl.cloud.tencent.com/product/dc) 
 为您提供一个专用的专线网络连接方案，施工时间较长，但可以提供高质量、高可靠的网络连接服务。当您的业务对网络质量和网络安全要求较高时，可以选择此方案进行部署。
 
 下面将为您详细介绍专线接入部署混合云。
