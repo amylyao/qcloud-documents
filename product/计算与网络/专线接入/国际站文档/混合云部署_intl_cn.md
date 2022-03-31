@@ -1,7 +1,7 @@
 根据连接企业数据中心和私有网络的不同连接需求，腾讯云提供 VPN 连接和专线接入服务，主要区别如下：
-- [VPN 连接](https://cloud.tencent.com/product/vpn.html) 
+- [VPN 连接](https://intl.cloud.tencent.com/product/vpn) 
 利用公网和 IPsec 协议，在您的数据中心和私有网络之间建立加密的网络连接。VPN 网关的购买、生效和配置可以在几分钟内完成。但是 VPN 连接可能会受到 Internet 抖动、阻塞等公网质量问题而中断，当用户业务对网络连接质量要求不高时，VPN 连接是一种快速部署的高性价比选择。
-- [专线接入](https://cloud.tencent.com/product/dc.html) 
+- [专线接入](https://intl.cloud.tencent.com/product/dc) 
 为您提供一个专用的专线网络连接方案，施工时间较长，但可以提供高质量、高可靠的网络连接服务。当您的业务对网络质量和网络安全要求较高时，可以选择此方案进行部署。
 
 下面将为您详细介绍专线接入部署混合云。
@@ -9,7 +9,7 @@
 专线接入提供了一种快速安全连接腾讯云与本地数据中心的方法，用户可以通过一条物理专线一次性打通位于多地域的腾讯云计算资源，实现灵活可靠的混合云部署。
 如果您需要为专线设置备份，有两种方式：
 - **双专线接入**备份，腾讯云支持主备故障切换（主备）配置。
-![](https://mc.qcloudimg.com/static/img/bedb9f79daf8ee8c89db53a49d49b251/image.png)
+![](https://main.qcloudimg.com/raw/f2f50dc9d4f69667d05b0485ec3653f7.png)
 - **VPN连接**作为专线链路备份（主备）。
 
 >**注意：**
@@ -31,4 +31,4 @@
 4. 配置专线 NAT（可选）。
 5. 配置需要通信的子网所关联的路由表。
 6. 您可以选择创建多条物理专线或者 VPN 连接，实现单条的专线备份。
-详情请参见 [快速入门](https://cloud.tencent.com/document/product/216/7557)。
+详情请参见 [快速入门](https://intl.cloud.tencent.com/document/product/216/7557)。
